@@ -661,7 +661,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 10;
 }
 
 .header__cart-wrap {
@@ -696,6 +695,7 @@
 	cursor: default;
 	display: none;
 	min-height: 100%;
+	z-index: 10;
 }
 
 .header__cart-list::before {
